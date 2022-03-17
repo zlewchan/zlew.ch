@@ -58,3 +58,7 @@ body {
 .headline {
 	text-decoration: underline;
 }
+
+.tagline {
+    color: gray;
+}
