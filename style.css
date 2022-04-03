@@ -1,8 +1,28 @@
+:root {
+    --day: white;
+    --night: rgb(40, 40, 40);
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background: var(--day);
+    }
+
+    i {
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: var(--night);
+        color: var(--day);
+    }
+}
+
 body {
     margin-top: 50px;
     text-align: center;
-    color: white;
-    background-color: rgb(40, 40, 40);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
